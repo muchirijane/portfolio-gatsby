@@ -1,29 +1,35 @@
 import React from 'react'
-import SideLogo from './SideLogo'
+import logo from '../../images/logo.svg'
+import {FaTwitter,FaGithub,FaDev,FaLinkedinIn} from 'react-icons/fa'
 import {
   SideContainer,
   SideLogoWrapper,
   SocialWrapper,
+  SocialIconsWrapper,
   SocialIcons,
-  SocialTwitter,
-  SocialGithub,
-  SocialDev,
-  SocialLinkedin,
   SocialLine
 } from './SideInfo.styles'
 const SideInfo = () => {
   return (
     <SideContainer>
       <SideLogoWrapper>
-        <SideLogo/>
+        <img src={logo} alt='logo'/>
       </SideLogoWrapper>
       <SocialWrapper>
-        <SocialIcons>
-          <SocialTwitter/>
-          <SocialGithub/>
-          <SocialDev/>
-          <SocialLinkedin/>
-        </SocialIcons>
+        <SocialIconsWrapper>
+          <SocialIcons to='/'>
+            <FaTwitter/>
+          </SocialIcons>
+          <SocialIcons to='/'>
+            <FaGithub/>
+          </SocialIcons>
+          <SocialIcons to='/'>
+            <FaDev/>
+          </SocialIcons>
+          <SocialIcons to='/'>
+            <FaLinkedinIn/>
+          </SocialIcons>
+        </SocialIconsWrapper>
         <SocialLine/>
       </SocialWrapper>
       

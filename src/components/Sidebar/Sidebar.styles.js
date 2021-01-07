@@ -10,11 +10,19 @@ width: 15%;
 height: 100vh;
 display: flex;
 flex-direction: column;
+position: relative;
 
+@media only screen and (max-width: 1400px){
+  width: 25%;
+}
 `;
 
 export const NavContainer = styled.div`
+position: fixed;
+right: 20px;
+top: 20%;
 margin: 20px;
+transform: translate(-30%, 0%);
 &:hover{
   color: #EAAF4A;
 }
@@ -25,32 +33,29 @@ align-items: center;
 justify-content: center;
 color: #B1B1B1;
 text-decoration: none;
+margin-bottom: 30px;
 &:hover{
   color: #EAAF4A;
 }
 `;
 export const MenuIcon = styled(FaFolderOpen)`
-color: #B1B1B1;
-font-size: 1.7rem;
-margin-right: 2rem;
+color: #EAAF4A;
+font-size: 3rem;
+margin-right: 1rem;
 
-&:hover{
-  color: #EAAF4A;
-}
 `;
 export const MenuText = styled.span`
-color: #B1B1B1;
+color: #EAAF4A;
 font-size: 1.8rem;
-
-&:hover{
-  color: #EAAF4A;
-}
 `;
 
 export const Menu = styled.ul``;
 
 export const MenuItem = styled.li`
 list-style: none;
+&:not(:last-child){
+  margin-bottom: 2rem;
+}
 `;
 
 export const MenuLink = styled(Link)`
@@ -65,7 +70,8 @@ font-size: 1.8rem;
 
 export const NavLinkIcon = styled(DiJsBadge)`
 color: #B1B1B1;
-font-size: 2.4rem;
+font-size: 2.2rem;
+margin-right: 1rem;
 &:hover{
   color: #EAAF4A;
 }

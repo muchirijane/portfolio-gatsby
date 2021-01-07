@@ -8,6 +8,7 @@ import { Button } from "../GlobalStyles/GlobalStyles"
 import {
    HomeContainer,
    HomeCode,
+   HomeWrapper,
    HomeIntro,
    HomeName,
    HomeText,
@@ -22,20 +23,22 @@ const IndexPage = () => (
        <HomeCode>
           {"<"}Home {">"}
        </HomeCode>
-       <HomeIntro>Hey my name is</HomeIntro>
-       <HomeName>Jane Tracy</HomeName>
-       <HomeText>
-        I am a 
-        <HomeTextSpan>passionate</HomeTextSpan>
-        developer
-       </HomeText>
-       <HomeDetails>
-       I am a self taught front end developer,
-       who enjoys coding cool websites and making
-       them user friendly and easy to navigate. 
-       User Expericence is important in what I create.  
-       </HomeDetails>
-       <Button to='/contact' bigRadius primary bigPadding bigFont>Hire Me</Button>
+       <HomeWrapper>
+         <HomeIntro>Hey my name is</HomeIntro>
+         <HomeName>Jane Tracy</HomeName>
+         <HomeText>
+         I am a 
+         <HomeTextSpan>passionate</HomeTextSpan>
+         developer
+         </HomeText>
+         <HomeDetails>
+         I am a self taught front end developer,
+         who enjoys coding cool websites and making
+         them user friendly and easy to navigate. 
+         User Expericence is important in what I create.  
+         </HomeDetails>
+         <Button to='/contact' bigRadius primary bigPadding bigFont>Hire Me</Button>
+       </HomeWrapper>
        <HomeCode>
           {"<"}Home {"/>"}
        </HomeCode>

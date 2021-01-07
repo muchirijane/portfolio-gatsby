@@ -23,7 +23,7 @@ import styled from 'styled-components'
 const SideLogo = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "Logo.png" }) {
+      placeholderImage: file(relativePath: { eq: "Logo-1.png" }) {
         childImageSharp {
           fluid(maxWidth: 100) {
             ...GatsbyImageSharpFluid

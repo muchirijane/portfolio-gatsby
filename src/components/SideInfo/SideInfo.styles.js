@@ -1,41 +1,40 @@
 import styled from 'styled-components'
-import {FaTwitter,FaGithub,FaDev,FaLinkedinIn} from 'react-icons/fa'
+import {Link} from 'gatsby'
 
 export const SideContainer = styled.div`
+position: relative;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+margin-left: 30px;
+margin-right: 80px;
 `;
-export const SideLogoWrapper = styled.div``;
+export const SideLogoWrapper = styled.div`
+height: 54px;
+width: 54px;
+margin-top: 2rem;
+position: fixed;
+top: 0;
+
+`;
 export const SocialWrapper = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+position: fixed;
+bottom: 0;
 `;
-export const SocialIcons = styled.div`
+export const SocialIconsWrapper = styled.div`
 display: flex;
 flex-direction: column;
 `;
-export const SocialTwitter = styled(FaTwitter)`
+
+export const SocialIcons = styled(Link)`
+text-decoration: none;
 color: #EAAF4A;
 margin-bottom: 1rem;
-font-size: 2.4rem;
-`;
-export const SocialGithub = styled(FaGithub)`
-color: #EAAF4A;
-margin-bottom: 1rem;
-font-size: 2.4rem;
-`;
-export const SocialDev = styled(FaDev)`
-color: #EAAF4A;
-margin-bottom: 1rem;
-font-size: 2.4rem;
-`;
-export const SocialLinkedin = styled(FaLinkedinIn)`
-color: #EAAF4A;
-margin-bottom: 1rem;
-font-size: 2.4rem;
+font-size: 2rem;
 `;
 export const SocialLine = styled.div`
 width: 2px;

@@ -2,7 +2,19 @@ import React from 'react'
 import GlobalStyles from './Layout.styles'
 import Sidebar from '../Sidebar/Sidebar'
 import SideInfo from '../SideInfo/SideInfo'
-import {LayoutContainer} from './Layout.styles'
+import {
+  LayoutContainer,
+  Container, 
+  Circle,
+  Star,
+  Triangle,
+  Square
+} from './Layout.styles'
+
+import circle from '../../images/Ellipse.svg'
+import star from '../../images/star.svg'
+import square from '../../images/square.svg'
+import triangle from '../../images/Polygon.svg'
 
 
 const Layout = ({children}) => {
@@ -10,8 +22,20 @@ const Layout = ({children}) => {
     <div>
       <GlobalStyles/>
       <LayoutContainer>
+      <Circle>
+        <img src={circle}/>
+      </Circle>
+      <Star>
+        <img src={star}/>
+      </Star>
+      <Square>
+        <img src={square}/>
+      </Square>
+      <Triangle>
+        <img src={triangle}/>
+      </Triangle>
       <SideInfo/>
-      {children}
+      <Container>{children}</Container>
       <Sidebar/>
       </LayoutContainer>
     </div>

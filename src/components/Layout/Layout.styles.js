@@ -2,7 +2,7 @@ import styled, {createGlobalStyle} from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800;900&family=Rubik:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800;900&family=Roboto:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -38,4 +38,43 @@ export const LayoutContainer = styled.div`
 min-height: 100vh;
 display: flex;
 justify-content: space-between;
+position: relative;
+`;
+
+export const Container = styled.main`
+max-width: 1300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+z-index: 100;
+
+@media only screen and (max-width: 1300px){
+max-width: 1100px;
+}
+`;
+
+export const Circle = styled.div `
+position: absolute;
+top: 10%;
+right: 30%;
+z-index: 20;
+`;
+export const Star = styled.div `
+position: absolute;
+top: 20%;
+right: 20%;
+z-index: 20;
+`;
+export const Square = styled.div `
+position: absolute;
+top: 45%;
+right: 30%;
+z-index: 20;
+`;
+export const Triangle = styled.div `
+position: absolute;
+top: 60%;
+right: 20%;
+z-index: 20;
 `;
