@@ -18,7 +18,7 @@ html {
         font-size: 58%;
     }
     @media only screen and (min-width: 1980px){
-        font-size: 70%;
+        font-size: 85%;
     }
 }
 body{
@@ -33,3 +33,9 @@ body{
 `;
 
 export default GlobalStyles;
+
+export const LayoutContainer = styled.div`
+min-height: 100vh;
+display: flex;
+justify-content: space-between;
+`;
