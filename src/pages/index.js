@@ -36,7 +36,7 @@ const IndexPage = () => (
          them user friendly and easy to navigate. 
          User Expericence is important in what I create.  
          </HomeDetails>
-         <Button to='/contact' bigRadius primary bigPadding bigFont>Hire Me</Button>
+         <Button to='muchirijane@outlook.com' bigRadius primary bigPadding bigFont>Hire Me</Button>
        </HomeWrapper>
        <HomeCode>
           {"<"}Home {"/>"}

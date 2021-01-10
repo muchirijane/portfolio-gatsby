@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {Link} from 'gatsby'
 
 export const Button = styled.button`
 border-radius: ${({bigRadius}) => bigRadius? '44px':'40px' };
@@ -18,4 +19,29 @@ color: #EAAF4A;
 outline: none;
 font-size: ${({bigFont})=> bigFont? '14px': '12px'};
 background: transparent;
+`;
+
+export const TextLink = styled(Link)`
+color:  #EAAF4A;
+text-decoration: none;
+padding: 0 1rem;
+`;
+
+export const Code = styled.h4`
+color: #585858;
+font-size: 2rem;
+font-weight: lighter;
+`;
+
+export const Copyright = styled.p`
+color: #7E7E7E;
+font-size: 1.4rem;
+text-align: center;
+padding-top: 2rem;
+`;
+
+export const CopyrightLink = styled(Link)`
+color:  #EAAF4A;
+text-decoration: none;
+padding: 0 1rem;
 `;

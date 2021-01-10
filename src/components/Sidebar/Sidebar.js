@@ -13,7 +13,7 @@ import {
 } from './Sidebar.styles'
 const Sidebar = () => {
   return (
-      <Nav>
+      <Nav aria-label='Main Menu'>
         <NavContainer>
           <MenuContainer>
             <MenuIcon/>

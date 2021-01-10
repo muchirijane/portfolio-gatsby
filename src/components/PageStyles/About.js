@@ -28,6 +28,7 @@ margin-left: 1rem;
 `;
 export const AboutWrapper = styled.div`
 margin: 1rem 0;
+width: 80%;
 `;
 export const AboutMeCode = styled.h4`
 font-weight: 400;
@@ -41,7 +42,7 @@ color: #EAAF4A;
   text-decoration: none;
 `;
 export const AboutDetails = styled.p`
-line-height: 1.8;
+line-height: 2;
 margin-left: 1rem;
 `;
 
