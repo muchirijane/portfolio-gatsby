@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {Link} from 'gatsby'
 
 export const HomeContainer = styled.section`
 padding: 30px 0;
@@ -40,4 +41,17 @@ font-size: 2rem;
 font-weight: 400;
 width: 50%;
 margin-bottom: 3.5rem;
+`;
+
+export const Copyright = styled.p`
+color: #7E7E7E;
+font-size: 1.4rem;
+text-align: center;
+padding-top: 2rem;
+`;
+
+export const CopyrightLink = styled(Link)`
+color:  #EAAF4A;
+text-decoration: none;
+padding: 0 1rem;
 `;

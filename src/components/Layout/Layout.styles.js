@@ -46,7 +46,8 @@ max-width: 1300px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-position: relative;
+position: absolute;
+left: 10%;
 z-index: 100;
 
 @media only screen and (max-width: 1300px){
@@ -78,3 +79,4 @@ top: 60%;
 right: 20%;
 z-index: 20;
 `;
+

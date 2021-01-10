@@ -8,7 +8,7 @@ import {
   Circle,
   Star,
   Triangle,
-  Square
+  Square,
 } from './Layout.styles'
 
 import circle from '../../images/Ellipse.svg'

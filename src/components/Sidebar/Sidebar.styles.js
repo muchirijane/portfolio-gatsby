@@ -10,7 +10,8 @@ width: 15%;
 height: 100vh;
 display: flex;
 flex-direction: column;
-position: relative;
+position: fixed;
+right: 0;
 
 @media only screen and (max-width: 1400px){
   width: 25%;

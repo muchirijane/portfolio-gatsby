@@ -1,8 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/Layout/layout"
-// import Image from "../components/image"
 import SEO from "../components/seo"
 import { Button } from "../GlobalStyles/GlobalStyles"
 import {
@@ -13,7 +10,9 @@ import {
    HomeName,
    HomeText,
    HomeTextSpan,
-   HomeDetails
+   HomeDetails,
+   Copyright,
+   CopyrightLink
 } from '../components/PageStyles/Home';
 
 const IndexPage = () => (
@@ -42,6 +41,10 @@ const IndexPage = () => (
        <HomeCode>
           {"<"}Home {"/>"}
        </HomeCode>
+       <Copyright>
+        Designed and built by 
+        <CopyrightLink to ='https://github.com/muchirijane'>&copy; Jane Tracy {new Date().getFullYear()}</CopyrightLink>
+      </Copyright>
     </HomeContainer>
    </Layout>
 )
