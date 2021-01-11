@@ -11,8 +11,6 @@ import {
    HomeText,
    HomeTextSpan,
    HomeDetails,
-   Copyright,
-   CopyrightLink
 } from '../components/PageStyles/Home';
 
 const IndexPage = () => (
@@ -23,7 +21,11 @@ const IndexPage = () => (
           {"<"}Home {">"}
        </HomeCode>
        <HomeWrapper>
-         <HomeIntro>Hey my name is</HomeIntro>
+         <HomeIntro>Hey my name is
+         <span role="img" aria-label="Cool hand emoji">
+          😎
+         </span>
+         </HomeIntro>
          <HomeName>Jane Tracy</HomeName>
          <HomeText>
          I am a 
@@ -41,10 +43,7 @@ const IndexPage = () => (
        <HomeCode>
           {"<"}Home {"/>"}
        </HomeCode>
-       <Copyright>
-        Designed and built by 
-        <CopyrightLink to ='https://github.com/muchirijane'>&copy; Jane Tracy {new Date().getFullYear()}</CopyrightLink>
-      </Copyright>
+       
     </HomeContainer>
    </Layout>
 )

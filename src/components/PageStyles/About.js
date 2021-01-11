@@ -67,7 +67,9 @@ color: #585858;
 font-size: 1.6rem;
 font-weight: lighter;
 `;
-export const SkillItem = styled.p``;
+export const SkillItem = styled.h4`
+font-weight: 400;
+`;
 
 export const Copyright = styled.p`
 color: #7E7E7E;

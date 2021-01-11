@@ -2,6 +2,7 @@ import React from 'react'
 import GlobalStyles from './Layout.styles'
 import Sidebar from '../Sidebar/Sidebar'
 import SideInfo from '../SideInfo/SideInfo'
+import { CopyrightLink, Copyright } from "../../GlobalStyles/GlobalStyles"
 import {
   LayoutContainer,
   Container, 
@@ -23,19 +24,24 @@ const Layout = ({children}) => {
       <GlobalStyles/>
       <LayoutContainer>
       <Circle>
-        <img src={circle}/>
+        <img src={circle} alt='A circle'/>
       </Circle>
       <Star>
-        <img src={star}/>
+        <img src={star} alt='A star'/>
       </Star>
       <Square>
-        <img src={square}/>
+        <img src={square} alt='A square'/>
       </Square>
       <Triangle>
-        <img src={triangle}/>
+        <img src={triangle} alt='A triangle'/>
       </Triangle>
       <SideInfo/>
-      <Container>{children}</Container>
+      <Container>{children}
+      <Copyright>
+          Designed and built by 
+          <CopyrightLink to ='https://github.com/muchirijane'>&copy; Jane Tracy {new Date().getFullYear()}</CopyrightLink>
+        </Copyright>
+      </Container>
       <Sidebar/>
       </LayoutContainer>
     </div>

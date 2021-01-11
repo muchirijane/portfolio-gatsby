@@ -19,8 +19,6 @@ import {
   SkillWrapper,
   SkillTitle,
   SkillItem,
-  Copyright,
-  CopyrightLink
 } from '../components/PageStyles/About'
 
 
@@ -59,7 +57,7 @@ const AboutPage = () => {
           <SkillCode>skill: {"{"}</SkillCode>
           <SkillContainer>
             <SkillWrapper>
-              <SkillTitle>//Languages</SkillTitle>
+              <SkillTitle>{'//'} Languages</SkillTitle>
               <SkillItem>HTML</SkillItem>
               <SkillItem>CSS</SkillItem>
               <SkillItem>SASS</SkillItem>
@@ -67,13 +65,13 @@ const AboutPage = () => {
               <SkillItem>React</SkillItem>
             </SkillWrapper>
             <SkillWrapper>
-              <SkillTitle>//Tools</SkillTitle>
+              <SkillTitle>{'//'} Tools</SkillTitle>
               <SkillItem>Git & Github</SkillItem>
               <SkillItem>VS Code</SkillItem>
               <SkillItem>Terminal</SkillItem>
             </SkillWrapper>
             <SkillWrapper>
-              <SkillTitle>//Design</SkillTitle>
+              <SkillTitle>{'//'} Design</SkillTitle>
               <SkillItem>Figma</SkillItem>
               <SkillItem>Adobe XD</SkillItem>
               <SkillItem>Zeplin</SkillItem>
@@ -85,10 +83,7 @@ const AboutPage = () => {
       <AboutCode>
           {"<"} About {"/>"}
         </AboutCode>
-      <Copyright>
-          Designed and built by 
-          <CopyrightLink to ='https://github.com/muchirijane'>&copy; Jane Tracy {new Date().getFullYear()}</CopyrightLink>
-        </Copyright>
+      
     </Layout>
   )
 }

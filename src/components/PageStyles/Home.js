@@ -20,6 +20,10 @@ export const HomeIntro = styled.h4`
 font-size: 1.6rem;
 font-weight: lighter;
 margin-bottom: 2rem;
+
+span{
+  padding-left: 1rem;
+}
 `;
 export const HomeName = styled.h1`
 font-size: 8rem;

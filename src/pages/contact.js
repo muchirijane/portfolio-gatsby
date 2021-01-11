@@ -1,11 +1,13 @@
 import React from 'react'
+import SEO from "../components/seo"
 import Layout from '../components/Layout/layout'
-import {TextLink, Code, Button, Copyright, CopyrightLink} from '../GlobalStyles/GlobalStyles'
+import {TextLink, Code, Button} from '../GlobalStyles/GlobalStyles'
 import {ContactContainer,ContactWrapper, ContactTitle,ContactText,ContactExtraText
  } from '../components/PageStyles/Contact'
 const Contact = () => {
   return (
     <Layout>
+      <SEO title="Contact" />
       <ContactContainer>
         <Code>
           {"<"} Contact  {">"}
@@ -24,10 +26,6 @@ const Contact = () => {
         <Code>
           {"<"} Contact  {"/>"}
         </Code>
-        <Copyright>
-        Designed and built by 
-        <CopyrightLink to ='https://github.com/muchirijane'>&copy; Jane Tracy {new Date().getFullYear()}</CopyrightLink>
-      </Copyright>
       </ContactContainer>
       
     </Layout>

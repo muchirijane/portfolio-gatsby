@@ -17,16 +17,16 @@ const SideInfo = () => {
       </SideLogoWrapper>
       <SocialWrapper>
         <SocialIconsWrapper>
-          <SocialIcons to='https://twitter.com/TracyCss' target='_blank' rel="noreferrer noopener">
+          <SocialIcons aria-label="Twitter" to='https://twitter.com/TracyCss' target='_blank' rel="noreferrer noopener">
             <FaTwitter/>
           </SocialIcons>
-          <SocialIcons to='https://github.com/muchirijane' target='_blank' rel="noreferrer noopener">
+          <SocialIcons aria-label="Github" to='https://github.com/muchirijane' target='_blank' rel="noreferrer noopener">
             <FaGithub/>
           </SocialIcons>
-          <SocialIcons to='https://dev.to/tracycss' target='_blank' rel="noreferrer noopener">
+          <SocialIcons aria-label="Dev.to" to='https://dev.to/tracycss' target='_blank' rel="noreferrer noopener">
             <FaDev/>
           </SocialIcons>
-          <SocialIcons to='https://www.linkedin.com/in/jane-muthoni-muchiri/' target='_blank' rel="noreferrer noopener">
+          <SocialIcons aria-label="Linkedin" to='https://www.linkedin.com/in/jane-muthoni-muchiri/' target='_blank' rel="noreferrer noopener">
             <FaLinkedinIn/>
           </SocialIcons>
         </SocialIconsWrapper>
