@@ -21,7 +21,7 @@ const Sidebar = () => {
           </MenuContainer>
           <Menu>
             <MenuItem>
-               <MenuLink to='/'>
+               <MenuLink to='/' activeStyle={{ color: "#EAAF4A" }}>
                   <NavLinkIcon/>
                   Home
                 </MenuLink>

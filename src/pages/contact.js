@@ -20,8 +20,9 @@ const Contact = () => {
           <ContactExtraText>
           You can also get me at dev.to
             <TextLink to='https://dev.to/tracycss' target='_blank' rel="noreferrer noopener">@Tracycss</TextLink>
+            or email me at <TextLink href='mailto: muchirijane@outlook.com'>muchitijane@outlook.com</TextLink>
           </ContactExtraText>
-          <Button bigRadius primary bigFont >Let's Talk</Button>
+          <Button bigRadius primary bigFont as='a' href='mailto: muchirijane@outlook.com'>Let's Talk</Button>
         </ContactWrapper>
         <Code>
           {"<"} Contact  {"/>"}

@@ -1,14 +1,14 @@
 import React from 'react'
 import Layout from '../components/Layout/layout'
-import {Project}  from '../components/Project/Project'
+// import {Project}  from '../components/Project/Project'
 import SEO from "../components/seo"
-import { projectOne } from '../data/ProjectData'
+// import { projectOne } from '../data/ProjectData'
 
 const Projects = () => {
   return (
     <Layout>
       <SEO title="Projects"/>
-      <Project>
+      {/* <Project>
         {Projects.map((project, index)=>{
           return(
             <div>
@@ -19,7 +19,7 @@ const Projects = () => {
           )
         })}
         
-      </Project>
+      </Project> */}
       
     </Layout>
   )

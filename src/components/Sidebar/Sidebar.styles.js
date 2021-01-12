@@ -35,7 +35,8 @@ justify-content: center;
 color: #B1B1B1;
 text-decoration: none;
 margin-bottom: 30px;
-&:hover{
+&:hover,
+&:active{
   color: #EAAF4A;
 }
 `;
@@ -64,7 +65,8 @@ text-decoration: none;
 color: #B1B1B1;
 font-size: 1.8rem;
 
-&:hover{
+&:hover,
+&:active{
   color: #EAAF4A;
 }
 `;

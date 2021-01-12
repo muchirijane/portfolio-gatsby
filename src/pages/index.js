@@ -22,7 +22,7 @@ const IndexPage = () => (
        </HomeCode>
        <HomeWrapper>
          <HomeIntro>Hey my name is
-         <span role="img" aria-label="Cool hand emoji">
+         <span role="img" aria-label=" A Cool emoji">
           😎
          </span>
          </HomeIntro>
@@ -38,7 +38,7 @@ const IndexPage = () => (
          them user friendly and easy to navigate. 
          User Expericence is important in what I create.  
          </HomeDetails>
-         <Button to='muchirijane@outlook.com' bigRadius primary bigPadding bigFont>Hire Me</Button>
+         <Button as='a' href='mailto: muchirijane@outlook.com' bigRadius primary bigPadding bigFont>Hire Me</Button>
        </HomeWrapper>
        <HomeCode>
           {"<"}Home {"/>"}

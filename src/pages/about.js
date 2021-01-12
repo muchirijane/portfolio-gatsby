@@ -39,7 +39,7 @@ const AboutPage = () => {
           <AboutMeCode>about-me: {"{"}</AboutMeCode>
           <About>
             <AboutDetails>
-            I am Jane, a 24 year old self-taught front-end developer.
+            I am Jane, a passionate self-taught front-end developer.
             After my degree in Public Relations I did some marketing with that I got introduced to graphic design and web design.With more time on them, I got to love design and started doing User Interface for mobile applications. This is where I truly fell in love with User experience and how important it is in everything I create. 
             </AboutDetails>
             <AboutDetails>

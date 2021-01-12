@@ -13,7 +13,7 @@ const SideInfo = () => {
   return (
     <SideContainer>
       <SideLogoWrapper>
-        <img src={logo} alt='logo'/>
+        <img src={logo} alt='my logo'/>
       </SideLogoWrapper>
       <SocialWrapper>
         <SocialIconsWrapper>

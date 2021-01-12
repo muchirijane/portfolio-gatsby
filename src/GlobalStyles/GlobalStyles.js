@@ -5,20 +5,24 @@ export const Button = styled.button`
 border-radius: ${({bigRadius}) => bigRadius? '44px':'40px' };
 background-color: ${({primary})=> primary? '#EAAF4A': '#eeee'};
 color: ${({primary})=> primary? '#141414' : '#EAAF4A'};
-padding: ${({bigPadding})=> bigPadding ? '13px 34px': '10px 28px'};
-font-size: ${({bigFont})=> bigFont? '1.8rem': '1.5rem'};
+padding: ${({bigPadding})=> bigPadding ? '13px 34px': '10px 26px'};
+font-size: ${({bigFont})=> bigFont? '1.8rem': '1.4rem'};
 outline: none;
 cursor: pointer;
 border: none;
+text-decoration: none;
 `;
 
 export const OutlineButton = styled.button`
-border-radius: ${({bigRadius})=> bigRadius? '44px': '20px'};
+border-radius: ${({bigRadius})=> bigRadius? '44px': '40px'};
+padding: ${({bigPadding})=> bigPadding ? '13px 34px': '8px 26px'};
 border: 2px solid #EAAF4A;
 color: #EAAF4A;
 outline: none;
-font-size: ${({bigFont})=> bigFont? '14px': '12px'};
+font-size: ${({bigFont})=> bigFont? '1.8rem': '1.4rem'};
 background: transparent;
+text-decoration: none;
+cursor: pointer;
 `;
 
 export const TextLink = styled(Link)`

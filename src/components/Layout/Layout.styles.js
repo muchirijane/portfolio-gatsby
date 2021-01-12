@@ -48,6 +48,7 @@ flex-direction: column;
 justify-content: center;
 position: absolute;
 left: 10%;
+/* transform: translate(80px, 10px); */
 z-index: 100;
 
 @media only screen and (max-width: 1300px){
