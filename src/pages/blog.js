@@ -3,7 +3,7 @@ import {graphql, useStaticQuery} from 'gatsby'
 import SEO from "../components/seo"
 import Layout from '../components/Layout/layout'
 import {Code} from '../GlobalStyles/GlobalStyles'
-import {BlogContainer, BlogHeader, BlogWrapper, BlogTitle, BlogDesc, BlogLink} from '../components/PageStyles/Blog'
+import {BlogContainer, BlogHeader, BlogWrapper,BlogLink, BlogTitle, BlogDesc, LinkBlog} from '../components/PageStyles/Blog'
 const Blog = () => {
   const data = useStaticQuery(graphql`
   query{
@@ -13,6 +13,9 @@ const Blog = () => {
           frontmatter{
             title
             description
+          }
+          fields{
+            slug
           }
         }
       }
@@ -32,9 +35,11 @@ const Blog = () => {
             <ol>
             {data.allMarkdownRemark.edges.map((edge,index)=>(
               <li key={index}>
-                <BlogTitle>{edge.node.frontmatter.title}</BlogTitle>
-                <BlogDesc>{edge.node.frontmatter.description}</BlogDesc>
-                <BlogLink to ='/'>Read More <span>&rarr;</span></BlogLink>
+                <LinkBlog to={`/blog/${edge.node.fields.slug}`}>
+                  <BlogTitle>{edge.node.frontmatter.title}</BlogTitle>
+                  <BlogDesc>{edge.node.frontmatter.description}</BlogDesc>
+                  <BlogLink to ='/'>Read More <span>&rarr;</span></BlogLink>
+                </LinkBlog>
               </li>
             ))}
           </ol>

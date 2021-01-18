@@ -1,13 +1,15 @@
 import React from 'react'
 import Layout from '../components/Layout/layout'
-// import {Project}  from '../components/Project/Project'
+//import {Portfolio}  from '../content/portfolio.json'
 import SEO from "../components/seo"
-// import { projectOne } from '../data/ProjectData'
+import Project from '../content/Project'
+//import { Project, Desc,SubText } from '../content/projectStyles'
 
 const Projects = () => {
   return (
     <Layout>
       <SEO title="Projects"/>
+      <Project/>
       {/* <Project>
         {Projects.map((project, index)=>{
           return(
@@ -20,6 +22,7 @@ const Projects = () => {
         })}
         
       </Project> */}
+
       
     </Layout>
   )

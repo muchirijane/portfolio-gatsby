@@ -1,0 +1,26 @@
+[
+  {
+    "image": "../images/portfolio.png",
+    "title": "Portfolio",
+    "preview": "https://github.com/muchirijane",
+    "source": "https://github.com/muchirijane",
+    "stack": "React - React - Gatsby - styled-compoents - Framer-Motion - Graphql",
+    "content": "The current website you are viewing is one of my awesome site I have coded. I wanted it to be static and fast, hence I built it with Gatsby. I also used markdown files especially for the blog section. This helps me add new posts with easy."
+  },
+  {
+    "image": "../images/portfolio.png",
+    "title": "HomeMade Website",
+    "preview": "https://github.com/muchirijane",
+    "source": "https://github.com/muchirijane",
+    "stack": "React - React-router - tyled-compoents",
+    "content": "A food website for ordering food that you can cook at home by following recipe guidelines. The website is built with React and styled-components. This was a great practice to transform my Figma design into a React site."
+  },
+  {
+    "image": "../images/colour-theme.png",
+    "title": "Nairobi Night Color Theme",
+    "preview": "https://github.com/muchirijane",
+    "source": "https://github.com/muchirijane",
+    "stack": "React - React-router - tyled-compoents",
+    "content": "Nairobi Night is a VS code colour theme that comes in both light mode and dark mode. Got inspirition from the city under the sun and the beautiful lights at night along the streets."
+  }
+]

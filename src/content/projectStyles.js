@@ -7,6 +7,8 @@ margin: 2rem auto;
 `;
 export const ProjectWrapper = styled.div`
 margin: 1rem auto;
+display: flex;
+flex-direction: column;
 `;
 
 export const ProjectInfo = styled.div`
@@ -23,7 +25,8 @@ margin: .5rem auto;
 
 display: flex;
 align-items: center;
-flex-direction: ${({imgStart}) => (imgStart ? 'row' : 'row-reverse')};
+/* flex-direction: ${({imgStart}) => (imgStart ? 'row' : 'row-reverse')}; */
+flex-direction: column;
 
 @media only screen and (max-width: 1200px){
   flex-direction: column;
@@ -33,7 +36,8 @@ flex-direction: ${({imgStart}) => (imgStart ? 'row' : 'row-reverse')};
 export const ImgWrapper = styled.div`
 display: flex;
 max-width: 400px;
-justify-content: ${({start}) =>(start ? 'flex-start' : 'flex-end')};
+/* justify-content: ${({start}) =>(start ? 'flex-start' : 'flex-end')}; */
+justify-content: flex-start;
 border-radius: 15px;
 overflow: hidden;
 `;
@@ -48,20 +52,22 @@ border: 0;
 export const TextWrapper = styled.div`
 display: flex;
 justify-content: flex-start;
+flex-direction: column;
 `;
 
-export const ProjectDesc = styled.p`
+export const ProjectContent = styled.p`
 font-size: 1.8rem;
 padding-bottom: 1.4rem;
 `;
 
-export const ProjectSubText = styled.h4`
+export const ProjectStack = styled.h4`
 font-size: 1.4rem;
 `;
 
 export const ProjectButtons = styled.div`
-display: flex;
-justify-content: center;
+/* display: flex;
+justify-content: flex-start; */
+
 `;
 
 export const SourceIcon = styled(FaGithub)`

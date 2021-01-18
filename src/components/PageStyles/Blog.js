@@ -38,12 +38,16 @@ ol{
 
 export const BlogTitle = styled.h2`
 font-size: 2rem;
+text-decoration: none;
+color: #DBDBDB;
 `;
 
 export const BlogDesc = styled.h3`
 font-size: 1.8rem;
 font-weight: 400;
 padding-bottom: 1rem;
+text-decoration: none;
+color: #DBDBDB;
 `;
 
 export const BlogLink = styled(Link)`
@@ -59,4 +63,8 @@ span{
 &:hover{
   color: #EAAF4A;
 }
+`;
+
+export const LinkBlog = styled(Link)`
+text-decoration: none;
 `;
