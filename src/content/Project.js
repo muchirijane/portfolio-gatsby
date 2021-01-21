@@ -16,7 +16,7 @@ const Project = ()=> {
           image{
             childImageSharp{
               fluid{
-                src
+                ...GatsbyImageSharpFluid
               }
             }
           }
@@ -40,25 +40,25 @@ const Project = ()=> {
         <ProjectWrapper>
           
             {data.allPortfolioJson.edges.map((edge, index)=>(
-              <ProjectInfo>
+              <ProjectInfo key={index}>
                  <ProjectTitle>{edge.node.title }</ProjectTitle>
                  <ProjectDetail>
                    <ImgWrapper>
-                     <Img fluid={edge.node.image.childImageSharp.fluid.src }/>
+                     <Img fluid={edge.node.image.childImageSharp.fluid } alt={edge.node.alt}/>
                    </ImgWrapper>
                    <TextWrapper>
                       <ProjectContent>{edge.node.content}</ProjectContent>
                       <ProjectStack>{edge.node.stack}</ProjectStack>
                    </TextWrapper>
                    <ProjectButtons>
-                    <Button as='a' href={edge.node.source} target='_blank' rel="noreferrer noopener">
+                    <OutlineButton as='a' href={edge.node.source} target='_blank' rel="noreferrer noopener">
                       <SourceIcon/>
                       Github
-                    </Button>
-                    <OutlineButton as='a' href={edge.node.preview} target='_blank' rel="noreferrer noopener">
+                    </OutlineButton>
+                    <Button primary as='a' href={edge.node.preview} target='_blank' rel="noreferrer noopener">
                       <LiveIcon/>
                       Live Site
-                    </OutlineButton>
+                    </Button>
               </ProjectButtons>
 
                  </ProjectDetail>

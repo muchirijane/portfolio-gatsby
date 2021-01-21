@@ -16,7 +16,7 @@ margin: 1.2rem auto;
 `;
 
 export const ProjectTitle = styled.h2`
-font-size: 3rem;
+font-size: 2rem;
 `;
 
 export const ProjectDetail = styled.div`
@@ -24,7 +24,6 @@ export const ProjectDetail = styled.div`
 margin: .5rem auto;
 
 display: flex;
-align-items: center;
 /* flex-direction: ${({imgStart}) => (imgStart ? 'row' : 'row-reverse')}; */
 flex-direction: column;
 
@@ -40,10 +39,11 @@ max-width: 400px;
 justify-content: flex-start;
 border-radius: 15px;
 overflow: hidden;
+height: 200px;
 `;
 
 export const Img = styled.img`
-max-width: 100%;
+width: 100%;
 max-height: 220px;
 display: inline-block;
 border: 0;
@@ -60,22 +60,30 @@ font-size: 1.8rem;
 padding-bottom: 1.4rem;
 `;
 
-export const ProjectStack = styled.h4`
+export const ProjectStack = styled.h3`
 font-size: 1.4rem;
 `;
 
 export const ProjectButtons = styled.div`
 /* display: flex;
 justify-content: flex-start; */
+margin-top: 2rem;
+
+a{
+  margin-right: 2rem;
+  font-size: 1.4rem;
+}
 
 `;
 
 export const SourceIcon = styled(FaGithub)`
 color: #EAAF4A;
-font-size: 2rem;
+font-size: 1.4rem;
+margin-right: .8rem;
 `;
 
 export const LiveIcon = styled(BiLinkAlt)`
-color: #EAAF4A;
-font-size: 2rem;
+color: #1B1B29;
+font-size: 1.4rem;
+margin-right: .8rem;
 `;

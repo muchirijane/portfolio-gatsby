@@ -67,6 +67,7 @@ const AboutPage = () => {
             <SkillWrapper>
               <SkillTitle>{'//'} Tools</SkillTitle>
               <SkillItem>Git & Github</SkillItem>
+              <SkillItem>Chrome Dev Tools</SkillItem>
               <SkillItem>VS Code</SkillItem>
               <SkillItem>Terminal</SkillItem>
             </SkillWrapper>

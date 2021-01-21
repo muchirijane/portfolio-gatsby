@@ -3,8 +3,6 @@ title: "React questions to help you learn"
 description: "Useful React questions to ask yourself as you learn. Get to know the basic questions used in interviews to help you land that job."
 ---
 
-![React image](./react-resources.png)
-
 Learning React can be challenging in the first few weeks. Getting to know how to use props when to use class or functional components. I am still on this journey of learning React and I found it helpful to use some basic beginner questions that I can be asking myself every week. This is a good way to help me understand the fundamentals plus repetition will make recall easier. I used some of my favourite resources I came across this week. I will post the question and answers plus the source link that I got them from. I will not be diving into redux or hooks, just basic common React questions for now. As I advance, I will definitely write a part two with more complex questions.
 If you are learning React too, you can use these questions to ask yourself every Friday and with time it will be easier to recall the answers. Don't wait to rush through them when you are getting ready for the interview.
 

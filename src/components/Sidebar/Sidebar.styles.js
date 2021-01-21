@@ -6,7 +6,7 @@ import {DiJsBadge} from 'react-icons/di'
 export const Nav = styled.nav`
 background: #181825;
 color: #B1B1B1;
-width: 15%;
+width: 12%;
 height: 100vh;
 display: flex;
 flex-direction: column;

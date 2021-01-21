@@ -18,6 +18,7 @@ ol{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
+  list-style: none;
   @media only screen and (min-width: 1400px){
     grid-column-gap: 10rem;
   }
@@ -31,6 +32,19 @@ ol{
 
   li{
     max-width: 550px;
+    transition: all .2s cubic-bezier(.68,.1,.06,1.16);
+
+    &:hover{
+      h2,a{
+        color: #EAAF4A;
+      }
+      a{
+        transition: all .3s cubic-bezier(.68,.1,.06,1.16);
+        span{
+          margin-left: 1rem;
+        }
+      }
+    }
   }
 
 }
@@ -57,7 +71,7 @@ color: #DBDBDB;
 font-weight: 800;
 
 span{
-  margin-left: 1rem;
+  margin-left: .5rem;
 }
 
 &:hover{

@@ -446,10 +446,10 @@ console.log(mapNames)
 
 ##### Where to learn React for free
 
-[Learn react for free by Bob ziroll in scrimba](https://scrimba.com/learn/learnreact)
-[FreeCodeCamp react and redux section](https://www.freecodecamp.org/learn/)
-[Front end development with React in Coursera](https://www.coursera.org/learn/front-end-react)
-[Building application with react and flux by Cory House from PluralSight](https://www.pluralsight.com/courses/react-flux-building-applications)
+- [Learn react for free by Bob ziroll in scrimba](https://scrimba.com/learn/learnreact)
+- [FreeCodeCamp react and redux section](https://www.freecodecamp.org/learn/)
+- [Front end development with React in Coursera](https://www.coursera.org/learn/front-end-react)
+- [Building application with react and flux by Cory House from PluralSight](https://www.pluralsight.com/courses/react-flux-building-applications)
 
 #### In conclusion
 
@@ -457,6 +457,6 @@ To make your transition to react learn Javascript first, don’t rush the course
 
 If you find this post useful share it with your peers or beginners who learning Javascript and want to react js. You can also buy me coffee. 🙂
 
-<a href="https://www.buymeacoffee.com/janetracy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee"height="41" width="174" loading="lazy"></a>
+<a href="https://www.buymeacoffee.com/janetracy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" height="41" width="174" loading="lazy"></a>
 
 ![xo xo gif](https://media.giphy.com/media/iiP8nOrMHXzj8RyOGg/giphy.gif)
