@@ -9,10 +9,12 @@ export const ProjectWrapper = styled.div`
 margin: 1rem auto;
 display: flex;
 flex-direction: column;
+
 `;
 
 export const ProjectInfo = styled.div`
 margin: 1.2rem auto;
+
 `;
 
 export const ProjectTitle = styled.h2`
@@ -24,7 +26,7 @@ export const ProjectDetail = styled.div`
 margin: .5rem auto;
 
 display: flex;
-flex-direction: column;
+flex-direction: row;
 
 @media only screen and (max-width: 1200px){
   flex-direction: column;
@@ -33,11 +35,16 @@ flex-direction: column;
 
 export const ImgWrapper = styled.div`
 display: flex;
-max-width: 400px;
+width: 350px;
 justify-content: flex-start;
 border-radius: 15px;
 overflow: hidden;
 height: 200px;
+
+a{
+  height: 100%;
+  width: 100%;
+}
 `;
 
 export const Img = styled.img`
@@ -51,6 +58,8 @@ export const TextWrapper = styled.div`
 display: flex;
 justify-content: flex-start;
 flex-direction: column;
+width: 50%;
+margin-left: 2rem;
 `;
 
 export const ProjectContent = styled.p`
@@ -82,4 +91,11 @@ export const LiveIcon = styled(BiLinkAlt)`
 color: #1B1B29;
 font-size: 1.4rem;
 margin-right: .8rem;
+`;
+
+export const ButtonWrapper = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
 `;

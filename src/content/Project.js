@@ -3,7 +3,7 @@ import {useStaticQuery, graphql} from 'gatsby'
 import { Button, Code, OutlineButton } from '../GlobalStyles/GlobalStyles'
 
 import {ProjectContainer, ProjectWrapper, ProjectInfo, ProjectTitle, ProjectDetail,TextWrapper,
-ImgWrapper, Img,ProjectStack,ProjectContent,ProjectButtons,SourceIcon,LiveIcon} from './projectStyles';
+ImgWrapper, Img,ProjectStack,ProjectContent,ProjectButtons,SourceIcon,LiveIcon, ButtonWrapper} from './projectStyles';
 
 const Project = ()=> {
   const data = useStaticQuery(graphql`
@@ -43,7 +43,9 @@ const Project = ()=> {
                  <ProjectTitle>{edge.node.title }</ProjectTitle>
                  <ProjectDetail>
                    <ImgWrapper>
-                     <Img src={edge.node.image.childImageSharp.fluid } alt={edge.node.alt}/>
+                     <a href={edge.node.preview} target="_blank" rel="noreferrer">
+                       <Img fluid={edge.node.image.childImageSharp.fluid} alt={edge.node.alt}/>
+                     </a>
                    </ImgWrapper>
                    <TextWrapper>
                       <ProjectContent>{edge.node.content}</ProjectContent>
@@ -65,6 +67,13 @@ const Project = ()=> {
                  </ProjectDetail>
               </ProjectInfo>  
             )) }
+
+            <ButtonWrapper>
+              <OutlineButton primary as='a' href="https://github.com/muchirijane" target='_blank' rel="noreferrer noopener">
+                <SourceIcon/>
+                More on Github            
+              </OutlineButton>
+            </ButtonWrapper>
           
         </ProjectWrapper>
         <Code>
