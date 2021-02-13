@@ -27,25 +27,25 @@ const Sidebar = () => {
                 </MenuLink>
             </MenuItem>
             <MenuItem>
-               <MenuLink to='/about'>
+               <MenuLink to='/about' activeStyle={{ color: "#EAAF4A" }}>
                   <NavLinkIcon/>
                   About
                 </MenuLink>
             </MenuItem>
             <MenuItem>
-               <MenuLink to='/projects'>
+               <MenuLink to='/projects' activeStyle={{ color: "#EAAF4A" }}>
                   <NavLinkIcon/>
                   Projects
                 </MenuLink>
             </MenuItem>
             <MenuItem>
-               <MenuLink to='/blog'>
+               <MenuLink to='/blog' activeStyle={{ color: "#EAAF4A" }}>
                   <NavLinkIcon/>
                   Blog
                 </MenuLink>
             </MenuItem>
             <MenuItem>
-               <MenuLink to='/contact'>
+               <MenuLink to='/contact' activeStyle={{ color: "#EAAF4A" }}>
                   <NavLinkIcon/>
                   Contact
                 </MenuLink>

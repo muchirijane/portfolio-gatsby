@@ -24,7 +24,6 @@ export const ProjectDetail = styled.div`
 margin: .5rem auto;
 
 display: flex;
-/* flex-direction: ${({imgStart}) => (imgStart ? 'row' : 'row-reverse')}; */
 flex-direction: column;
 
 @media only screen and (max-width: 1200px){
@@ -35,7 +34,6 @@ flex-direction: column;
 export const ImgWrapper = styled.div`
 display: flex;
 max-width: 400px;
-/* justify-content: ${({start}) =>(start ? 'flex-start' : 'flex-end')}; */
 justify-content: flex-start;
 border-radius: 15px;
 overflow: hidden;
@@ -65,8 +63,6 @@ font-size: 1.4rem;
 `;
 
 export const ProjectButtons = styled.div`
-/* display: flex;
-justify-content: flex-start; */
 margin-top: 2rem;
 
 a{

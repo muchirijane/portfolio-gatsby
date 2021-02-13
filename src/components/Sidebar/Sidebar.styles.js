@@ -23,6 +23,8 @@ position: fixed;
 right: 20px;
 top: 20%;
 margin: 20px;
+display: flex;
+flex-direction: column;
 transform: translate(-30%, 0%);
 &:hover{
   color: #EAAF4A;
@@ -51,7 +53,9 @@ color: #EAAF4A;
 font-size: 1.8rem;
 `;
 
-export const Menu = styled.ul``;
+export const Menu = styled.ul`
+margin-left: 10px;
+`;
 
 export const MenuItem = styled.li`
 list-style: none;

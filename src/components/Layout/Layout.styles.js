@@ -172,28 +172,4 @@ max-width: 1100px;
 }
 `;
 
-export const Circle = styled.div `
-position: absolute;
-top: 10%;
-right: 30%;
-z-index: 20;
-`;
-export const Star = styled.div `
-position: absolute;
-top: 20%;
-right: 20%;
-z-index: 20;
-`;
-export const Square = styled.div `
-position: absolute;
-top: 45%;
-right: 30%;
-z-index: 20;
-`;
-export const Triangle = styled.div `
-position: absolute;
-top: 60%;
-right: 20%;
-z-index: 20;
-`;
 
