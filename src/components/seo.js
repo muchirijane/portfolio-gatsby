@@ -13,21 +13,27 @@ import { useStaticQuery, graphql } from "gatsby"
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
     graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
+    query{
+      site{
+        siteMetadata{
+          title
+          description
+          author
+          siteUrl
+          social{
+            twitter
           }
+          imageShare
         }
       }
+    }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-
+  const metaImage = `${site.siteMetadata.siteUrl}/${
+    site.siteMetadata.imageShare}`
   return (
     <Helmet
       htmlAttributes={{
@@ -39,6 +45,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          property: 'og:url',
+          content: site.siteMetadata.siteUrl,
         },
         {
           property: `og:title`,
@@ -58,7 +68,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          content: `@${site.siteMetadata.social.twitter}`,
         },
         {
           name: `twitter:title`,
@@ -68,7 +78,14 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(meta)}
+      ]
+       .concat([
+         {
+         property: 'og:image',
+         content: metaImage,
+         }
+       ])
+      .concat(meta)}
     />
   )
 }

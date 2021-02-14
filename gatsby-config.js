@@ -3,6 +3,16 @@ module.exports = {
     title: `Jane | Front-end Developer`,
     description: `I am Jane Tracy Muthoni, a self-taught Front-end developer.`,
     author: `Jane Tracy Muthoni`,
+    siteUrl: 'https://janetracy.com',
+    social: {
+      twitter: 'TracyCss',
+      linkedin: 'janetracymuthoni',
+      github: 'janetracymuthoni',
+      devto: 'tracycss',
+      email: 'muchirijane@outlook.com'
+    },
+    // name of the image for social website share, should be in static folder
+    imageShare: `share.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

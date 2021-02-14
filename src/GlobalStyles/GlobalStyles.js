@@ -2,11 +2,11 @@ import styled from 'styled-components'
 import {Link} from 'gatsby'
 
 export const Button = styled.button`
-border-radius: ${({bigRadius}) => bigRadius? '44px':'40px' };
+border-radius: ${({bigRadius}) => bigRadius? '44px':'30px' };
 background-color: ${({primary})=> primary? '#EAAF4A': '#eeee'};
 color: ${({primary})=> primary? '#141414' : '#EAAF4A'};
 padding: ${({bigPadding})=> bigPadding ? '13px 34px': '8px 20px'};
-font-size: ${({bigFont})=> bigFont? '1.8rem': '1.4rem'};
+font-size: ${({bigFont})=> bigFont? '1.6rem': '1.4rem'};
 outline: none;
 cursor: pointer;
 border: none;

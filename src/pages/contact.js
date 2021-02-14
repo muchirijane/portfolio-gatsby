@@ -15,12 +15,12 @@ const Contact = () => {
         <ContactWrapper>
           <ContactTitle>Get In Touch</ContactTitle>
           <ContactText>
-            If you want me to be part of your team, you can reach out. I will be glad to work on cool projects as I   improve my skills.  You can also just say hey or get advice on how to be a good Tech blogger.  
+            If you want me to be part of  junior team, you can reach out. I will be glad to work on cool projects as I  improve my skills.  You can also just say hey or get advice on how to be a good Tech blogger.  
           </ContactText>
           <ContactExtraText>
-          You can also get me at dev.to
+          You can follow my Tech Journey at dev.to Blog
             <TextLink to='https://dev.to/tracycss' target='_blank' rel="noreferrer noopener">@Tracycss</TextLink>
-            or email me at <TextLink href='mailto: muchirijane@outlook.com'>muchitijane@outlook.com</TextLink>
+            or reach me at <TextLink href='mailto: muchirijane@outlook.com'>muchitijane@outlook.com.</TextLink>
           </ContactExtraText>
           <Button bigRadius primary bigFont as='a' href='mailto: muchirijane@outlook.com'>Let's Talk</Button>
         </ContactWrapper>

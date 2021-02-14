@@ -41,6 +41,10 @@ border-radius: 15px;
 overflow: hidden;
 height: 200px;
 
+@media only screen and (min-width: 1860px){
+  width: 600px;
+}
+
 a{
   height: 100%;
   width: 100%;
@@ -60,6 +64,10 @@ justify-content: flex-start;
 flex-direction: column;
 width: 50%;
 margin-left: 2rem;
+
+@media only screen and (min-width: 1800px){
+  width: 70%;
+}
 `;
 
 export const ProjectContent = styled.p`
@@ -97,5 +105,5 @@ export const ButtonWrapper = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 5rem;
+margin-top: 7rem;
 `;

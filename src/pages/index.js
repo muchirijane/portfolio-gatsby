@@ -1,4 +1,5 @@
 import React from "react"
+import Typical from 'react-typical'
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import { Button } from "../GlobalStyles/GlobalStyles"
@@ -29,7 +30,14 @@ const IndexPage = () => (
          <HomeName>Jane Tracy</HomeName>
          <HomeText>
          I am a 
-         <HomeTextSpan>passionate</HomeTextSpan>
+         <HomeTextSpan>
+
+            <Typical
+            steps={['passionate', 2000, 'Creative', 2000, 'self-taught', 2000,'driven', 2000, ]}
+            loop={Infinity}
+            wrapper="span"
+            />
+         </HomeTextSpan>
          developer
          </HomeText>
          <HomeDetails>
@@ -38,7 +46,7 @@ const IndexPage = () => (
          them user friendly and easy to navigate. 
          User Expericence is important in what I create.  
          </HomeDetails>
-         <Button as='a' href='mailto: muchirijane@outlook.com' bigRadius primary bigPadding bigFont>Hire Me</Button>
+         <Button as='a' href='mailto: muchirijane@outlook.com' bigFont primary  >Hire Me</Button>
        </HomeWrapper>
        <HomeCode>
           {"<"}Home {"/>"}
