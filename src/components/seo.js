@@ -83,7 +83,11 @@ function SEO({ description, lang, meta, title }) {
          {
          property: 'og:image',
          content: metaImage,
-         }
+         },
+         {
+          name: 'twitter:image',
+          content: metaImage,
+        },
        ])
       .concat(meta)}
     />

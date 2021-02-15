@@ -13,17 +13,22 @@ flex-direction: column;
 `;
 
 export const ProjectInfo = styled.div`
-margin: 1.2rem auto;
+margin: 2rem auto;
 
 `;
 
 export const ProjectTitle = styled.h2`
-font-size: 2rem;
+font-size: 2.6rem;
+text-align: center;
+background: -webkit-linear-gradient(90.14deg, #EE7B5E 0.1%, #FB9E59 58.35%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 `;
 
 export const ProjectDetail = styled.div`
 
-margin: .5rem auto;
+margin: 3rem auto;
 
 display: flex;
 flex-direction: row;
@@ -39,7 +44,6 @@ width: 350px;
 justify-content: flex-start;
 border-radius: 15px;
 overflow: hidden;
-height: 200px;
 
 @media only screen and (min-width: 1860px){
   width: 600px;
@@ -51,22 +55,18 @@ a{
 }
 `;
 
-export const Img = styled.img`
-width: 100%;
-max-height: 220px;
-display: inline-block;
-border: 0;
-`;
 
 export const TextWrapper = styled.div`
 display: flex;
 justify-content: flex-start;
 flex-direction: column;
 width: 50%;
-margin-left: 2rem;
+margin-left: 5rem;
+justify-content: center;
 
 @media only screen and (min-width: 1800px){
   width: 70%;
+  margin-left: 10rem;
 }
 `;
 

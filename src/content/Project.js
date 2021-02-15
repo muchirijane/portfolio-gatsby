@@ -1,9 +1,10 @@
 import React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
+import Img from 'gatsby-image'
 import { Button, Code, OutlineButton } from '../GlobalStyles/GlobalStyles'
 
 import {ProjectContainer, ProjectWrapper, ProjectInfo, ProjectTitle, ProjectDetail,TextWrapper,
-ImgWrapper, Img,ProjectStack,ProjectContent,ProjectButtons,SourceIcon,LiveIcon, ButtonWrapper} from './projectStyles';
+ImgWrapper, ProjectStack,ProjectContent,ProjectButtons,SourceIcon,LiveIcon, ButtonWrapper} from './projectStyles';
 
 const Project = ()=> {
   const data = useStaticQuery(graphql`

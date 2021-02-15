@@ -2,7 +2,7 @@
   {
     "image": "../images/portfolio-preview.png",
     "alt": "my portfolio website",
-    "title": "Portfolio",
+    "title": "My Portfolio",
     "preview": "https://github.com/muchirijane",
     "source": "https://github.com/muchirijane",
     "stack": "React - Gatsby - styled-compoents - Framer-Motion - Graphql",
