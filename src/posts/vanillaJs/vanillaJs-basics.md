@@ -28,6 +28,8 @@ Before `var` was used to set new variables but with the ES6 updates let and cons
 Scope: `var` variables are globally scoped or accessible. This means when they are declared outside a function they are accessible throughout your file or window. This can be dangerous because you can change it without knowing, hence getting a lot of errors. `let` and `const` has blocked scope. This means when they are declared inside a function or any block of code, they can’t be accessed outside it. Thus you can’t easily break your code by manipulating or redeclaring the same variable outside the function.
 Re-assigning: Var variables can be re-assigned and updated easily, let can be updated but not re-assigned, and const variable can't be re-assigned, it is constant(doesn’t change). But the values within a const array or properties within a const object can be changed.
 
+![Vanilla code](./carbon.png)
+
 ```js
 //Var can be re-assigned
 var name = "Jane Tracy 👩‍💻"

@@ -44,11 +44,11 @@ const AboutPage = () => {
             </AboutDetails>
             <AboutDetails>
               In August 2020, I decided to learn code cause I had a lot of request if I can code what I designed. But   Unfortunately I didn’t know how to code. I took some courses on Udemy like: 
-              <AboutLink to='https://www.udemy.com/course/advanced-css-and-sass/'>Advanced Sass and Css: Flexbox,Grid, Css Animations and More</AboutLink>, 
-              <AboutLink to='https://www.udemy.com/course/the-complete-javascript-course/'>The advanced Complete JavaScript Course</AboutLink>, Online Gatsby Bootcamp and a couple of Youtube videos to learn React and Gatsby. 
+              <AboutLink to='https://www.udemy.com/course/advanced-css-and-sass/' target='_blank' rel="noreferrer noopener">Advanced Sass and Css: Flexbox,Grid, Css Animations and More</AboutLink>, 
+              <AboutLink to='https://www.udemy.com/course/the-complete-javascript-course/' target='_blank' rel="noreferrer noopener">The advanced Complete JavaScript Course</AboutLink>, Online Gatsby Bootcamp and a couple of Youtube videos to learn React and Gatsby. 
             </AboutDetails>
             <AboutDetails>
-              As I learned I also started a Blog On Dev.to <AboutLink to='https://dev.to/tracycss'>@Tracycss</AboutLink> to share my  knowledge. By the end to 2020, I was among the top authors with more than 100k+ views. I didn’t reliased how powerful my voice was until I started blogging about my Journey and how to build things with   TailwindCss, Css and React. 
+              As I learned I also started a Blog On Dev.to <AboutLink to='https://dev.to/tracycss' target='_blank' rel="noreferrer noopener">@Tracycss</AboutLink> to share my  knowledge. By the end to 2020, I was among the top authors with more than 100k+ views. I didn’t realise how helpful my knowledge was until I started blogging about my Journey and how to build things with TailwindCss, Css and React. I also do <AboutLink to='https://www.youtube.com/watch?v=IUZTbEaDo0U&t=41s' target='_blank' rel="noreferrer noopener">technical script writing for Tech YouTube channels.</AboutLink>
             </AboutDetails>
           </About>
           <AboutMeCode>{"}"}</AboutMeCode>

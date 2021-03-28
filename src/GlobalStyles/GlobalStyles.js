@@ -3,32 +3,32 @@ import {Link} from 'gatsby'
 
 export const Button = styled.button`
 border-radius: ${({bigRadius}) => bigRadius? '44px':'30px' };
-background-color: ${({primary})=> primary? '#EAAF4A': '#eeee'};
+background: ${({primary})=> primary? '#EAAF4A' : '#141414'};
 color: ${({primary})=> primary? '#141414' : '#EAAF4A'};
 padding: ${({bigPadding})=> bigPadding ? '13px 34px': '8px 20px'};
 font-size: ${({bigFont})=> bigFont? '1.6rem': '1.4rem'};
+font-weight: regular;
 outline: none;
 cursor: pointer;
 border: none;
 text-decoration: none;
-transition: all .2s ease;
+transition: all .5s ease-in;
 &:hover{
-  background: #141414;
-  color: #EAAF4A;
+  background: linear-gradient(90deg, #A0FF56 3.81%, #64F6FF 100%);
+  /* color: #EAAF4A; */
   svg{
     color: #EAAF4A;
   }
 }
 `;
 
-export const OutlineButton = styled.button`
-border-radius: ${({bigRadius})=> bigRadius? '44px': '40px'};
+export const OutlineButton = styled.a`
 padding: ${({bigPadding})=> bigPadding ? '13px 34px': '8px 20px'};
-border: 2px solid #EAAF4A;
+border: 3px solid ;
+border-radius: ${({bigRadius})=> bigRadius? '44px': '40px'};
 color: #EAAF4A;
 outline: none;
 font-size: ${({bigFont})=> bigFont? '1.8rem': '1.4rem'};
-background: transparent;
 text-decoration: none;
 cursor: pointer;
 transition: all .2s ease;
