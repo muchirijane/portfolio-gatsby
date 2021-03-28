@@ -4,6 +4,12 @@ import {BiLinkAlt} from 'react-icons/bi'
 
 export const ProjectContainer = styled.section`
 margin: 2rem auto;
+@media only screen and (max-width: 1400px){
+  max-width: 1000px;
+}
+@media only screen and (max-width: 1300px){
+  max-width: 800px;
+}
 `;
 export const ProjectWrapper = styled.div`
 margin: 1rem auto;
@@ -24,6 +30,12 @@ background: -webkit-linear-gradient(90.14deg, #EE7B5E 0.1%, #FB9E59 58.35%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+@media only screen and (max-width: 1300px){
+  font-size: 2.4rem;
+}
+@media only screen and (max-width: 1200px){
+  text-align: start;
+}
 `;
 
 export const ProjectDetail = styled.div`
@@ -48,6 +60,10 @@ overflow: hidden;
 @media only screen and (min-width: 1860px){
   width: 600px;
 }
+@media only screen and (max-width: 1200px){
+  width: 600px;
+  margin-bottom: 5rem;
+}
 
 a{
   height: 100%;
@@ -68,11 +84,16 @@ justify-content: center;
   width: 70%;
   margin-left: 10rem;
 }
+@media only screen and (max-width: 1200px){
+  margin-left: 0;
+  width: 80%;
+}
 `;
 
 export const ProjectContent = styled.p`
 font-size: 1.8rem;
 padding-bottom: 1.4rem;
+
 `;
 
 export const ProjectStack = styled.h3`
