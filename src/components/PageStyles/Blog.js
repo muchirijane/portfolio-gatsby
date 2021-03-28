@@ -3,6 +3,9 @@ import {Link} from 'gatsby'
 
 export const BlogContainer = styled.section`
 margin: 1rem auto;
+@media only screen and (max-width: 1430px){
+  max-width: 1000px;
+}
 `;
 
 export const BlogHeader = styled.h1`
@@ -26,7 +29,7 @@ ol{
     grid-column-gap: 15rem;
   }
 
-  @media only screen and (max-width: 1200px){
+  @media only screen and (max-width: 1300px){
     grid-template-columns: 1fr;
   }
 

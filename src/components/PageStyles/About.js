@@ -3,6 +3,10 @@ import {Link} from 'gatsby'
 
 export const AboutContainer = styled.section`
 margin: 30px auto;
+
+@media only screen and (max-width: 1400px){
+  max-width: 1000px;
+}
 `;
 export const AboutCode = styled.h4`
 color: #585858;

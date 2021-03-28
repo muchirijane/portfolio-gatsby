@@ -164,12 +164,19 @@ flex-direction: column;
 justify-content: center;
 position: absolute;
 left: 10%;
-/* transform: translate(80px, 10px); */
 z-index: 100;
+
+@media only screen and (max-width: 1500px){
+max-width: 1200px;
+}
 
 @media only screen and (max-width: 1300px){
 max-width: 1100px;
 }
+@media only screen and (max-width: 1200px){
+max-width: 800px;
+}
+
 `;
 
 

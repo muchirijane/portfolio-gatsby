@@ -2,6 +2,12 @@ import styled from 'styled-components'
 
 export const ContactContainer = styled.section`
 margin: 30px auto;
+@media only screen and (max-width: 1500px){
+  max-width: 1000px;
+}
+@media only screen and (max-width: 1300px){
+  max-width: 700px;
+}
 `;
 export const ContactWrapper = styled.div`
 margin: 12rem auto;

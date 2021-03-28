@@ -12,10 +12,10 @@ outline: none;
 cursor: pointer;
 border: none;
 text-decoration: none;
-transition: all .5s ease-in;
+transition: all .2s ease-in;
 &:hover{
-  background: linear-gradient(90deg, #A0FF56 3.81%, #64F6FF 100%);
-  /* color: #EAAF4A; */
+  background-color: #141414;
+  color: #EAAF4A;
   svg{
     color: #EAAF4A;
   }

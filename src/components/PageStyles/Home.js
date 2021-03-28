@@ -3,6 +3,11 @@ import {Link} from 'gatsby'
 
 export const HomeContainer = styled.section`
 padding: 30px 0;
+max-width: 1000px;
+@media only screen and (max-width: 1300px){
+  padding: 130px 0;
+}
+
 `;
 export const HomeCode = styled.h4`
 color: #585858;
@@ -43,7 +48,7 @@ padding: 0 1rem;
 export const HomeDetails = styled.h3`
 font-size: 2rem;
 font-weight: 400;
-width: 50%;
+width: 60%;
 margin-bottom: 3.5rem;
 `;
 

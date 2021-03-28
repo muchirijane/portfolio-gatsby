@@ -14,7 +14,7 @@ position: fixed;
 right: 0;
 
 @media only screen and (max-width: 1400px){
-  width: 25%;
+  width: 16%;
 }
 `;
 
@@ -28,6 +28,9 @@ flex-direction: column;
 transform: translate(-30%, 0%);
 &:hover{
   color: #EAAF4A;
+}
+@media only screen and (max-width: 1350px){
+  margin: 0;
 }
 `;
 export const MenuContainer = styled(Link)`
