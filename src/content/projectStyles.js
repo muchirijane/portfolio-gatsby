@@ -65,6 +65,10 @@ overflow: hidden;
   margin-bottom: 5rem;
 }
 
+@media only screen and (max-width: 1100px){
+  width: 400px;
+}
+
 a{
   height: 100%;
   width: 100%;
@@ -127,4 +131,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 7rem;
+
+@media only screen and (max-width: 900px){
+     justify-content: flex-start;
+  }
 `;

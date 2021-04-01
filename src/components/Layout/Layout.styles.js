@@ -17,6 +17,9 @@ html {
     @media only screen and (max-width: 1200px){
         font-size: 58%;
     }
+    @media only screen and (max-width: 1100px){
+        font-size: 55%;
+    }
     @media only screen and (min-width: 1980px){
         font-size: 85%;
     }

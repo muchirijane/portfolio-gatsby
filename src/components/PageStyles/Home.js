@@ -5,7 +5,10 @@ export const HomeContainer = styled.section`
 padding: 30px 0;
 max-width: 1000px;
 @media only screen and (max-width: 1300px){
-  padding: 130px 0;
+  padding: 13rem 0;
+}
+@media only screen and (min-width: 1600px){
+  max-width: 1500px;
 }
 
 `;
@@ -16,10 +19,11 @@ font-weight: lighter;
 `;
 
 export const HomeWrapper = styled.div`
-
-@media only screen and (min-width: 1300px){
-  margin: 12rem auto;
+margin: 10rem auto;
+@media only screen and (max-width: 1300px){
+  margin: 6rem auto;
 }
+
 `;
 export const HomeIntro = styled.h4`
 font-size: 1.6rem;
@@ -36,10 +40,20 @@ font-weight: bold;
 font-family: 'Roboto', sans-serif;
 letter-spacing: 6px;
 line-height: 1;
+@media only screen and (max-width: 900px){
+     font-size: 6rem;
+  }
 `;
 export const HomeText = styled.h2`
 font-size: 6.4rem;
 font-weight: lighter;
+
+@media only screen and (max-width: 900px){
+     font-size: 5rem;
+  }
+@media only screen and (max-width: 650px){
+  font-size: 4rem;
+}
 `;
 export const HomeTextSpan= styled.span`
 color: #EAAF4A;

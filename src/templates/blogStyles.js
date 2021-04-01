@@ -11,6 +11,14 @@ max-width: 750px;
   max-width: 650px;
 }
 
+@media only screen and (max-width: 750px){
+     max-width: 550px;
+}
+
+@media only screen and (max-width: 650px){
+     max-width: 450px;
+}
+
 a{
   color: #EAAF4A;
   text-decoration: none;
@@ -25,5 +33,15 @@ img{
   max-width: 750px;
   display: block;
   margin: 1.5rem 0;
+
+  @media only screen and (max-width: 1200px){
+    max-width: 600px;
+  }
+  @media only screen and (max-width: 1000px){
+    max-width: 500px;
+  }
+  @media only screen and (max-width: 750px){
+     max-width: 400px;
+  }
 }
 `;

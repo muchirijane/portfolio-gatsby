@@ -16,6 +16,15 @@ right: 0;
 @media only screen and (max-width: 1400px){
   width: 16%;
 }
+@media only screen and (max-width: 900px){
+  height: 80px;
+  bottom: 0;
+  width: 100%;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+
+}
 `;
 
 export const NavContainer = styled.div`
@@ -32,6 +41,10 @@ transform: translate(-30%, 0%);
 @media only screen and (max-width: 1350px){
   margin: 0;
 }
+@media only screen and (max-width: 900px){
+  bottom: 30px;
+  top: 93%;
+}
 `;
 export const MenuContainer = styled(Link)`
 display: flex;
@@ -44,11 +57,17 @@ margin-bottom: 30px;
 &:active{
   color: #EAAF4A;
 }
+@media only screen and (max-width: 900px){
+  display: none;
+}
 `;
 export const MenuIcon = styled(FaFolderOpen)`
 color: #EAAF4A;
 font-size: 3rem;
 margin-right: 1rem;
+@media only screen and (max-width: 900px){
+  display: none;
+}
 
 `;
 export const MenuText = styled.span`
@@ -58,12 +77,23 @@ font-size: 1.8rem;
 
 export const Menu = styled.ul`
 margin-left: 10px;
+
+@media only screen and (max-width: 900px){
+  display: flex;
+  margin-left: 0px;
+
+}
 `;
 
 export const MenuItem = styled.li`
 list-style: none;
 &:not(:last-child){
   margin-bottom: 2rem;
+
+  @media only screen and (max-width: 900px){
+     margin-right: 5rem;
+     margin-bottom: 0;
+  }
 }
 `;
 
@@ -85,4 +115,11 @@ margin-right: 1rem;
 &:hover{
   color: #EAAF4A;
 }
+
+@media only screen and (max-width: 900px){
+    font-size: 1.8rem;
+  }
+  @media only screen and (max-width: 750px){
+     display: none;
+  }
 `;

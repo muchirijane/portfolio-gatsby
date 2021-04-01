@@ -19,10 +19,16 @@ padding-bottom: 2rem;
 export const ContactText = styled.h2`
 font-weight: 400;
 font-size: 2.2rem;
+@media only screen and (max-width: 750px){
+    width: 80%;
+  }
 `;
 export const ContactExtraText = styled.h3`
 font-weight: 300;
 font-size: 2rem;
 margin-top: 2rem;
 margin-bottom: 4rem;
+@media only screen and (max-width: 750px){
+  width: 80%;
+}
 `;
