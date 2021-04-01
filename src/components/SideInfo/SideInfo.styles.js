@@ -8,6 +8,9 @@ flex-direction: column;
 justify-content: space-between;
 margin-left: 30px;
 margin-right: 80px;
+@media only screen and (max-width: 900px){
+  display: none;
+}
 `;
 export const SideLogoWrapper = styled.div`
 height: 54px;
