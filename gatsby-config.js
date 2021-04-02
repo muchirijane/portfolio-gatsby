@@ -14,6 +14,9 @@ module.exports = {
     // name of the image for social website share, should be in static folder
     imageShare: `share.jpg`
   },
+  
+    pathPrefix: "/portfolio-gatsby",
+  
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
