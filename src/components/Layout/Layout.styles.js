@@ -20,8 +20,13 @@ html {
     @media only screen and (max-width: 1100px){
         font-size: 55%;
     }
+<<<<<<< HEAD
     @media only screen and (min-width: 1900px){
         font-size: 80%;
+=======
+    @media only screen and (min-width: 1980px){
+        font-size: 85%;
+>>>>>>> df237775c24a915ae4774e868b8f53afc4004292
     }
 }
 body{

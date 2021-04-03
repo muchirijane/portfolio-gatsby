@@ -11,6 +11,9 @@ margin: 30px auto;
 `;
 export const ContactWrapper = styled.div`
 margin: 12rem auto;
+@media only screen and (max-width: 450px){
+  margin: 5rem auto;
+}
 `;
 export const ContactTitle = styled.h1`
 font-size: 4.8rem;
