@@ -22,6 +22,9 @@ margin: 2rem 0;
 
 export const BlogWrapper = styled.div`
 margin: 1rem auto;
+@media only screen and (max-width: 750px){
+  width: 450px;
+}
 
 ol{
   display: grid;

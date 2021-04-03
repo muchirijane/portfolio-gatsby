@@ -21,6 +21,9 @@ right: 0;
   bottom: 0;
   width: 100%;
   z-index: 200;
+  display: grid;
+  place-items: center;
+
 
 }
 `;
@@ -50,6 +53,7 @@ transform: translate(-30%, 0%);
 }
 @media only screen and (max-width: 380px){
   transform: translate(-1%, 0%); 
+
 }
 `;
 export const MenuContainer = styled(Link)`
@@ -89,9 +93,11 @@ margin-left: 10px;
   margin-left: 0px;
 
 }
+
 @media only screen and (max-width: 380px){
     margin-left: -2.5rem;
 }
+
 `;
 
 export const MenuItem = styled.li`
@@ -112,6 +118,7 @@ list-style: none;
   @media only screen and (max-width: 410px){
     margin-right: 2.5rem;
   }
+
 }
 `;
 

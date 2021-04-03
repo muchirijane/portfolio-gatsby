@@ -43,9 +43,11 @@ line-height: 1;
 @media only screen and (max-width: 900px){
      font-size: 6rem;
   }
+
 @media only screen and (max-width: 380px){
   font-size: 5rem;
 }
+
 `;
 export const HomeText = styled.h2`
 font-size: 6.4rem;
@@ -57,12 +59,14 @@ font-weight: lighter;
 @media only screen and (max-width: 650px){
   font-size: 4rem;
 }
+
 @media only screen and (max-width: 550px){
-  font-size: 3rem
+  font-size: 3rem;
 }
 @media only screen and (max-width: 380px){
   font-size: 2.8rem;
 }
+
 `;
 export const HomeTextSpan= styled.span`
 color: #EAAF4A;
