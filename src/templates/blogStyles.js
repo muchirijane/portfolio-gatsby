@@ -18,6 +18,12 @@ max-width: 750px;
 @media only screen and (max-width: 650px){
      max-width: 450px;
 }
+@media only screen and (max-width: 500px){
+  width: 350px;
+}
+@media only screen and (max-width: 410px){
+  width: 300px;
+}
 
 a{
   color: #EAAF4A;
@@ -42,6 +48,12 @@ img{
   }
   @media only screen and (max-width: 750px){
      max-width: 400px;
+  }
+  @media only screen and (max-width: 500px){
+     width: 300px;
+  }
+  @media only screen and (max-width: 500px){
+     width: 250px;
   }
 }
 `;

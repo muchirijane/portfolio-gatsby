@@ -69,6 +69,13 @@ overflow: hidden;
   width: 400px;
 }
 
+@media only screen and (max-width: 500px){
+  width: 300px;
+}
+@media only screen and (max-width: 380px){
+  width: 280px;
+}
+
 a{
   height: 100%;
   width: 100%;

@@ -21,8 +21,6 @@ right: 0;
   bottom: 0;
   width: 100%;
   z-index: 200;
-  display: grid;
-  place-items: center;
 
 }
 `;
@@ -44,6 +42,14 @@ transform: translate(-30%, 0%);
 @media only screen and (max-width: 900px){
   bottom: 30px;
   top: 93%;
+  display: grid;
+  place-items: center;
+}
+@media only screen and (max-width: 550px){
+  transform: translate(-10%, 0%);
+}
+@media only screen and (max-width: 380px){
+  transform: translate(-1%, 0%); 
 }
 `;
 export const MenuContainer = styled(Link)`
@@ -83,6 +89,9 @@ margin-left: 10px;
   margin-left: 0px;
 
 }
+@media only screen and (max-width: 380px){
+    margin-left: -2.5rem;
+}
 `;
 
 export const MenuItem = styled.li`
@@ -93,6 +102,15 @@ list-style: none;
   @media only screen and (max-width: 900px){
      margin-right: 5rem;
      margin-bottom: 0;
+  }
+  @media only screen and (max-width: 600px){
+     margin-right: 4rem;
+  }
+  @media only screen and (max-width: 500px){
+    margin-right: 3rem;
+  }
+  @media only screen and (max-width: 410px){
+    margin-right: 2.5rem;
   }
 }
 `;

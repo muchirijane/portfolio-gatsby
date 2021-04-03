@@ -43,6 +43,9 @@ line-height: 1;
 @media only screen and (max-width: 900px){
      font-size: 6rem;
   }
+@media only screen and (max-width: 380px){
+  font-size: 5rem;
+}
 `;
 export const HomeText = styled.h2`
 font-size: 6.4rem;
@@ -54,6 +57,12 @@ font-weight: lighter;
 @media only screen and (max-width: 650px){
   font-size: 4rem;
 }
+@media only screen and (max-width: 550px){
+  font-size: 3rem
+}
+@media only screen and (max-width: 380px){
+  font-size: 2.8rem;
+}
 `;
 export const HomeTextSpan= styled.span`
 color: #EAAF4A;
@@ -64,6 +73,12 @@ font-size: 2rem;
 font-weight: 400;
 width: 60%;
 margin-bottom: 3.5rem;
+@media only screen and (max-width: 550px){
+  font-size: 1.8rem
+}
+@media only screen and (max-width: 380px){
+  width: 80%;
+}
 `;
 
 export const Copyright = styled.p`
