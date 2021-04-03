@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-ab2604d762594fef5607.js"
+    "url": "webpack-runtime-80a0c568df5274dcd098.js"
   },
   {
-    "url": "framework-712d0c71a05a512b21eb.js"
+    "url": "framework-eb684e3e828ad13b3940.js"
   },
   {
-    "url": "app-ff6cd737a4891139622b.js"
+    "url": "app-0dfe152ddf2e9eb60838.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "cac2b5ad722168e2cb82260ba3929023"
+    "revision": "a64e301274d5440e82f535fc58a6a9b6"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-241020a1cf7d0f317bbe.js"
@@ -48,10 +48,10 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "012aae434fbd4f490000162fbb9b86e9"
+    "revision": "c63dc9c6d07d5fb14f21dbfe28d91782"
   },
   {
-    "url": "polyfill-669e45c82798e6234f65.js"
+    "url": "polyfill-64a2a5ba1fc84f7adec6.js"
   },
   {
     "url": "manifest.webmanifest",
@@ -62,7 +62,7 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\/page-data\/.*\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|avif|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
@@ -147,7 +147,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/portfolio-gatsby/app-ff6cd737a4891139622b.js`))) {
+  if (!resources || !(await caches.match(`/portfolio-gatsby/app-0dfe152ddf2e9eb60838.js`))) {
     return await fetch(event.request)
   }
 
