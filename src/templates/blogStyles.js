@@ -52,10 +52,10 @@ img{
   }
 
   @media only screen and (max-width: 500px){
-     width: 300px;
+     width: 350px;
   }
-  @media only screen and (max-width: 500px){
-     width: 250px;
+  @media only screen and (max-width: 450px){
+     width: 300px;
   }
 
 }

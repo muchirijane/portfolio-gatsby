@@ -11,6 +11,8 @@ max-width: 1000px;
   max-width: 1500px;
 }
 
+
+
 `;
 export const HomeCode = styled.h4`
 color: #585858;
@@ -33,6 +35,9 @@ margin-bottom: 2rem;
 span{
   padding-left: 1rem;
 }
+/* @media only screen and (min-width: 1900px){
+  font-size: 2.6rem;
+} */
 `;
 export const HomeName = styled.h1`
 font-size: 8rem;
@@ -47,6 +52,9 @@ line-height: 1;
 @media only screen and (max-width: 380px){
   font-size: 5rem;
 }
+/* @media only screen and (min-width: 1900px){
+  font-size: 10rem;
+} */
 
 `;
 export const HomeText = styled.h2`
@@ -83,6 +91,10 @@ margin-bottom: 3.5rem;
 @media only screen and (max-width: 380px){
   width: 80%;
 }
+/* @media only screen and (min-width: 1900px){
+  font-size: 3.6rem;
+  width: 90%;
+} */
 `;
 
 export const Copyright = styled.p`

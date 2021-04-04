@@ -20,13 +20,11 @@ html {
     @media only screen and (max-width: 1100px){
         font-size: 55%;
     }
-<<<<<<< HEAD
     @media only screen and (min-width: 1900px){
-        font-size: 80%;
-=======
-    @media only screen and (min-width: 1980px){
-        font-size: 85%;
->>>>>>> df237775c24a915ae4774e868b8f53afc4004292
+        font-size: 90%;
+    }
+    @media only screen and (min-width: 2000px){
+        font-size: 100%;
     }
 }
 body{
@@ -66,7 +64,7 @@ h5{
     font-size: 1.4rem;
 }
 
-//code
+
 code,
 kbd,
 pre,
@@ -154,6 +152,7 @@ th {
   background: #2e2e2e;
   color: #eee;
 }
+
 `;
 
 export default GlobalStyles;

@@ -31,12 +31,12 @@ const AboutPage = () => {
         </AboutCode>
       <AboutContainer>
         <NameDetails>
-          <NameCode>name: {"<string>{"}</NameCode>
+          <NameCode>name: {"<string> {"}</NameCode>
           <Name>Jane Tracy Muthoni</Name>
           <NameCode>{"{"}</NameCode>
         </NameDetails>
         <AboutWrapper>
-          <AboutMeCode>about-me: {"<string>{"}</AboutMeCode>
+          <AboutMeCode>about-me: {"<string> {"}</AboutMeCode>
           <About>
             <AboutDetails>
             I am Jane, a passionate self-taught front-end developer.
@@ -54,7 +54,7 @@ const AboutPage = () => {
           <AboutMeCode>{"}"}</AboutMeCode>
         </AboutWrapper>
         <SkillDetails>
-          <SkillCode>skill: {"<string>{"}</SkillCode>
+          <SkillCode>skill: {"<string> {"}</SkillCode>
           <SkillContainer>
             <SkillWrapper>
               <SkillTitle>{'//'} Languages</SkillTitle>

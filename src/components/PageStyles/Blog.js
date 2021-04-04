@@ -26,7 +26,7 @@ margin: 1rem auto;
   width: 450px;
 }
 @media only screen and (max-width: 450px){
-  width: 340px;
+  width: 310px;
 }
 
 ol{
